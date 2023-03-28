@@ -1,0 +1,195 @@
+@import url(../css/home.css);
+@import url(../css/responsive.css);
+
+
+@media only screen and (max-width: 767px){
+    .line{
+        display: none;
+    }
+
+    .options .devider:not(.line){
+        display: block !important;
+        width: 100%;
+        background-image: url(../images/bg_divider.png);
+        height: 2px !important;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .options .tool:nth-child(4) li{
+        color:  orange;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .options .tool:nth-child(4) li ul li{
+        color: black;
+        font-size: 16px;
+        padding: 3px 2px;
+    }
+
+    .options .tool:nth-child(2){
+        display: flex;
+        height: 50px;
+        font-size: 30px;
+        justify-content: space-around;
+        border-bottom: 1px black solid;
+        margin-bottom: 20px;
+    }
+
+    .options{
+        margin-top: 20px;
+        border-bottom: solid black 1px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .options{
+        border-bottom: solid black 1px;
+        padding-bottom: 20px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .options .devider:not(.line){
+        display: block;
+        width: 100%;
+        background-image: url(../images/bg_divider.png);
+        height: 2px !important;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .options .tool:nth-child(4) li{
+        color:  orange;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .options .tool:nth-child(4) li ul li{
+        color: black;
+        font-size: 16px;
+        padding: 3px 2px;
+    }
+
+    .options .tool:nth-child(2){
+        display: flex;
+        height: 50px;
+        font-size: 30px;
+        justify-content: space-around;
+        border-bottom: 1px black solid;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px){
+    main{
+      width: 80%;
+      margin:  auto;
+    }
+
+    .tool li:not(li ul li) {
+        padding: 6px 20px; 
+    }
+
+    .options{
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+
+    .options .devider{
+        display:  block;
+        height: 2px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .options .tool:nth-child(2){
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .options .devider{
+        margin-bottom: 15px;
+    }
+
+    .options .tool .devider{
+        margin-top: 15px;
+        background-color: unset;
+        background-image: url(../images/bg_divider.png);
+    }
+
+    .options .devider:first-child{
+        height: 3px;
+    }
+
+    .options .tool:nth-child(4) li{
+        color:  orange;
+        font-size: 20px;
+    }
+
+    .options .tool:nth-child(4) li ul li{
+        color: black;
+        font-size: 16px;
+        padding: 3px 2px;
+    }
+
+    li:not(.type, .table li, .menu-item):hover{
+        background-color: rgb(231, 228, 228);
+    }
+}
+
+.no-display{
+    display: none !important;
+}
+
+.options{
+    text-align: left !important;
+    font-size: 16px;
+}
+
+.product-container{
+    margin-top: 30px !important;
+}
+
+.tool ul{
+    margin-top: 15px;
+}
+
+.selected{
+    background-color: rgb(194, 193, 193);
+}
+
+.type-selected{
+    color:  orangered !important;
+}
+
+.selected-color{
+    border: 3px black solid !important;
+}
+
+.options li{
+    margin-bottom: 5px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table li{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border: 1px solid gray;
+}
+
+
+
+
+

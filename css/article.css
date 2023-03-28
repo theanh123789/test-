@@ -1,0 +1,86 @@
+@import url(../css/home.css);
+
+
+@media only screen and (max-width: 767px){
+	.detail p{
+        display: none;
+    }
+
+    .detail{
+        padding-bottom: 10px;
+    }
+
+    .newest h2{
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.detail p{
+        display: none;
+    }
+
+    .detail{
+        padding-bottom: 10px;
+    }
+
+    .newest{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+	.newest{
+        height: 520px;
+    }
+    
+    .newest img{
+        height: 520px;
+    }
+}
+
+
+main{
+    width: 97%;
+    margin: auto;
+}
+
+.newest {
+    margin-bottom: 40px;
+}
+
+.newest , .orther{
+    text-align: left !important;
+}
+
+
+
+.newest .detail{
+    padding-left: 30px;
+    background-color: #f1f2f2;
+    height: 100%;
+    padding-right: 60px;
+    padding-top: 30px;
+    line-height: 1.4;
+}
+
+.img-container img{
+    width: 100%;
+}
+
+.newest .detail h2{
+    margin: 0;
+}
+
+.orther{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.orther .article{
+    width: 48.4%;
+    margin-bottom: 40px;
+}

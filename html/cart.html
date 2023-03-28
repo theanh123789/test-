@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/slider.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+    <header>
+        <div class="tool-bar">
+            <ul class="tools">
+                <li><a href="#">Tra cứu đơn hàng</a></li>
+                <li class="likes-display"><a href="./like.html">Yêu thích</a></li>
+                <li><a href="#">Đăng nhập</a></li>
+                <li class="cart-display"><a href="../html/cart.html">Giỏ hàng</a></li>
+            </ul>
+        </div>
+        <nav class="row">
+            <div class="logo-container col-3 col-m-12 col-s-12">
+                <img src="../images/Logo_Ananas_Header.svg" alt="">
+                <div class="tool">
+                    <a href=""><i class="fas fa-user"></i></a>
+                   <a href=""><i class="fas fa-box-open"></i></a> 
+                </div>
+                <div id="btn-menu"><i class="fas fa-bars"></i></div>
+                <div id="btn-search"><i class="fas fa-search"></i></div>
+            </div>
+            <div class="menu-container col-6 col-m-12 col-s-12">
+                <ul class="menu row">
+                    <li class="menu-item col-s-12"><a href="#">Sản phẩm<i class="fas fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="#">
+                                    <div class="cate">
+                                        <img src="../images/nuatren.jpg" alt="">
+                                        <h3>Nửa trên</h3>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#">
+                                    <div class="cate">
+                                        <img src="../images/giay.jpg" alt="">
+                                        <h3>Giày</h3>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#">
+                                    <div class="cate">
+                                        <img src="../images/sale.jpg" alt="">
+                                        <h3>SALE OFF</h3>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="menu-item">
+                                <a href="#">
+                                    <div class="cate">
+                                        <img src="../images/pk.jpg" alt="">
+                                        <h3>Phụ kiện</h3>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <div class="devider"><div></div></div>
+                    <li class="menu-item col-s-12"><a href="#">Bộ sưu tập</a></li>
+                    <div class="devider"><div></div></div>
+                    <li class="menu-item col-s-12"><a href="#">SALE OFF</a></li>
+                    <div class="devider"><div></div></div>
+                    <li class="menu-item col-s-12"><a href="#">Bài viết</a></li>
+                    <div class="devider"><div></div></div>
+                    <li class="menu-item col-s-12"><a href="#">Giới thiệu</a></li>
+                </ul>
+            </div>
+            <div class="search-area col-3 col-m-5 col-s-12">
+                <form action="./product.html" method="get">
+                    <input type="text" id="search-box" name="key">
+                    <input type="submit" value="Tìm kiếm" id="btn-submit">
+                </form>
+            </div>
+        </nav>
+        <div class="text-slider">
+            <ul class="slide-content">
+                <li>BUY 2 GET 10% OFF - ÁP DỤNG VỚI TẤT CẢ BASIC TEE</li>
+                <li class="off">FREE SHIPPING VỚI HOÁ ĐƠN TỪ 800K !</li>
+                <li class="off">HÀNG 2 TUẦN NHẬN ĐỔI - GIÀY NỬA NĂM BẢO HÀNH</li>
+                <li class="off">BUY MORE PAY LESS - ÁP DỤNG KHI MUA PHỤ KIỆN</li>
+                <li class="off">BUY 2 GET 10% OFF - ÁP DỤNG VỚI TẤT CẢ BASIC TEE</li>
+            </ul>
+        </div>
+    </header>
+    
+    <main class="row">
+        <div class="list-order col-7 col-m-12 col-s-12" id="list-orders">
+            
+        </div>
+
+       <div class="order col-5 col-m-12 col-s-12">
+            <h3>Đơn hàng</h3>
+            <hr>
+            <h3>Nhập mã khuyến mãi</h3>
+            <div>
+                <input type="text" name="" id="txt-code">
+                <button id="btn-apply">Áp dụng</button>
+            </div>
+            <hr>
+            <p id="sum-price">Đơn hàng: 550000 x 2 VND</p>
+            <p>Giảm: 0 VND</p>
+            <hr>
+            <h3 id="all-price">Tạm tính: 1100000 VND</h3>
+            <button id="btn-pay">Thanh toán</button>
+       </div>
+       <div class="extend">
+            <a href="./like.html"><div class="likes-display"><i class="fas fa-heart"></i><t>1</t></div></a>
+            <a href="./cart.html"><div class="cart-display"><i class="fas fa-shopping-bag"></i><t>1</t></div></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-col">
+            <img src="../images/Store.svg" alt="" srcset="">
+            <button>Tìm cửa hàng</button>
+        </div>
+        <div class="footer-col col-text" >
+            <h4>Sản phẩm</h4>
+            <div>
+                <h5><a href="#">Nửa trên</a></h5>
+                <h5>Giày</h5>
+                <h5>Thời trang & phụ kiện</h5>
+                <h5>Sale off</h5>
+                <h4>Ananas Social</h4>
+            </div>
+        </div>
+        <div class="footer-col col-text">
+            <h4>Về công ty</h4>
+            <div>
+                <h5>Tuyển dụng</h5>
+                <h5>Liên hệ & nhượng quyền</h5>
+                <h5>Về Ananas</h5>
+                <h5>Sale off</h5>
+                <h4>Đăng ký nhận mail</h4>
+                <input type="text" name="" id="">
+                <input type="button" value="Send">
+            </div>
+        </div>
+        <div class="footer-col col-text">
+            <h4>Hỗ trợ</h4>
+            <div>
+                <h5>FAQs</h5>
+                <h5>Bảo mật thông tin</h5>
+                <h5>Chính sách chung</h5>
+                <h5>Tra cứu đơn hàng</h5>
+            </div>
+        </div>
+        <div class="footer-col col-text">
+            <h4>Liên hệ</h4>
+            <div>
+                <h5>Email góp ý</h5>
+                <h5>Hotline</h5>
+            </div>
+        </div>
+        <div class="footer-col col-text">
+            <h4>Đăng ký nhận mail: </h4>
+            <form action="#">
+                <input type="text">
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/headFoot.js"></script>
+    <script src="../js/cart.js"></script>
+</body>
+</html>

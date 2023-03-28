@@ -1,0 +1,49 @@
+@import url(./home.css);
+
+
+
+@media only screen and (max-width: 767px){
+	main form{
+        width: 100% !important;
+    }
+
+    main{
+        margin-top: 70px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    main form{
+        width: 100% !important;
+    }
+    main{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 992px){
+	
+}
+
+main form {
+    width: 80%;
+    margin: auto;
+}
+
+main input{
+    height: 50px;
+    padding: 5px 10px;
+    width: 50%;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+main button{
+    width: 45%;
+    font-size: 16px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border:none
+}

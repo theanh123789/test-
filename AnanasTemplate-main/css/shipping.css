@@ -1,0 +1,173 @@
+@import url('../css/home.css');
+
+@media only screen and (max-width: 767px){
+   
+    main h2{
+        display: block !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+    main{
+        margin-top: 140px !important;
+    }
+}
+
+@media only screen and (min-width: 992px){
+
+}
+
+.info, .order{
+    text-align:left;
+}
+.info{
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+select{
+    width: 170px;
+    padding: 5px 5px;
+    font-size: 16;
+}
+
+select:nth-child(10){
+    margin-bottom: 15px;
+}
+
+select:nth-child(12){
+    margin-right: 10px;
+}
+
+
+
+.info input:not([id*="method"]){
+    
+    font-size: 16px;
+    padding: 5px 5px;
+    width: 80%;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.info h2{
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+    padding: 10px
+}
+
+.info h2:nth-child(1){
+    margin-top: 0;
+}
+
+[id *= "method"]{
+    width: 15px;
+    height: 15px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+label{
+    line-height: 20px
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.order{
+    background-color: rgb(240, 238, 238);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.order h2:nth-child(1){
+    width: 100%;
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+}
+
+.order p{
+    width: fit-content;
+}
+
+.order-detail{
+    display: flex;
+}
+
+.order-detail .detail{
+    width: 60%;
+    position: relative;
+}
+
+.order-detail p{
+    color: gray;
+}
+.order-detail .quantity{
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.price{
+    width: 40%;
+    text-align: right;
+}
+
+.price p{
+    width: fit-content;
+    text-align: right;
+    float: right;
+}
+
+.order-detail-container{
+    border-bottom: dashed rgb(156, 155, 155) 1px;
+    padding-bottom: 10px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pre-sumary{
+    border-bottom: dashed rgb(156, 155, 155) 1px;
+}
+
+.sumary p{
+    color: orangered;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.sumary button{
+    display: block;
+    margin: auto;
+    height: 45px;
+    width: 70%;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: orangered;
+    font-size: 16px;
+}
+
+#mailer{
+    text-transform: lowercase;
+}
